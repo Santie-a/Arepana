@@ -1,0 +1,61 @@
+.bottom-bar {
+    position: absolute;
+    bottom: 0; /* Ubicado en la parte inferior de la pantalla */
+    left: 0;
+    right: 0;
+    padding: 10px; /* Espaciado interno */
+    justify-content: space-between; /* Espacio entre el input y el botón */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.search-input {
+	text-align: center;
+	font-family: montserrat, sans-serif;
+    flex: 1; /* Permitir que el input ocupe el espacio disponible */
+    padding: 10px; /* Espaciado interno del input */
+    border: 1px solid #9e8d71; /* Borde del input */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 20px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    width: 55%;
+}
+
+.reserve-button {
+    width: 30%;
+    background-color: #9e8d71; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    transition: background-color 0.5s; /* Transición suave para el color de fondo */
+}
+
+.reserve-button:hover {
+    background-color: #5a4d37; /* Color al pasar el mouse */
+}
+
+.search-results {
+    margin-bottom: 10px; /* Espacio entre la lista y el input */
+    list-style-type: none;
+    padding: 0;
+    transition: opacity 0.3s ease-in-out; /* Transición suave para la opacidad */
+}
+
+.search-item {
+    padding: 8px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.search-item:hover {
+    background-color: #eee;
+}
+
+.fade-in {
+    opacity: 1; /* Cambia la opacidad a 1 para mostrar */
+}

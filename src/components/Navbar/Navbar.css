@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9e8d71; /* Color de fondo */
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-title {
+    font-family: righteous, sans-serif;
+    margin: 0;
+}
+
+.navbar-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

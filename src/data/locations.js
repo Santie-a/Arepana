@@ -1,0 +1,16 @@
+export const locations = [
+	{ key: 'starbucks1', location: { lat: 4.676954, lng: -74.049196 }, name: 'Starbucks Parque de la 93', description: 'Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de WiFi.' },
+    { key: 'starbucks2', location: { lat: 4.680692, lng: -74.040430 }, name: 'Starbucks Calle 100', description: "Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de WiFi."},
+    { key: 'starbucks3', location: { lat: 4.615470, lng: -74.069808 }, name: 'Starbucks Centro', description: 'Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de WiFi.'},
+    { key: 'starbucks4', location: { lat: 4.69474, lng: -74.05091 }, name: 'Starbucks Calle 134', description: "Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de WiFi." },
+    { key: 'starbucks5', location: { lat: 4.682973, lng: -74.119686 }, name: 'Starbucks Connecta 26', description: "Cadena de cafeterías de Seattle famosa por su café tostado, bocados ligeros y disponibilidad de WiFi." },
+    { key: 'tostao1', location: { lat: 4.617731, lng: -74.070822 }, name: 'Tostao Centro', description: "Cadena de cafeterías Colombiana." },
+    { key: 'tostao2', location: { lat: 4.63753, lng: -74.06121 }, name: 'Tostao Calle 85', description: "Cadena de cafeterías Colombiana." },
+    { key: 'tostao3', location: { lat: 4.6128, lng: -74.0734 }, name: 'Tostao Parque 93', description: "Cadena de cafeterías Colombiana." },
+    { key: 'tostao4', location: { lat: 4.69454, lng: -74.05857 }, name: 'Tostao Calle 135', description: "Cadena de cafeterías Colombiana." },
+    { key: 'cafe1', location: { lat: 4.65941, lng: -74.06027 }, name: 'Café San Alberto Chapinero', description: "Cafe premium" },
+    { key: 'cafe2', location: { lat: 4.59423, lng: -74.07935 }, name: 'Café Devoción La Candelaria', description: "Cafe premium" },
+    { key: 'cafe3', location: { lat: 4.65871, lng: -74.04956 }, name: 'Café el Bosque Chapinero', description: "Cafe premium" },
+    { key: 'cafe4', location: { lat: 4.71675, lng: -74.04345 }, name: 'Café Casa Editorial Calle 134', description: "Cafe premium" },
+    { key: 'cafe5', location: { lat: 4.71875, lng: -74.04500 }, name: 'Café La Palma Calle 135', description: "Cafe premium" },
+];

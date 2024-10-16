@@ -1,0 +1,48 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -70%; /* Inicialmente oculto */
+    width: 50%;
+    height: 100%;
+    background-color: #8a795d; /* Color de fondo */
+    color: white;
+    transition: left 0.3s ease;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    left: 0; /* Mostrar el sidebar */
+}
+
+.sidebar-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sidebar-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espacio entre los botones */
+    margin-top: 1rem; /* Espacio superior */
+}
+
+.sidebar-option {
+	font-family: montserrat;
+    background-color: #bda887; /* Color de fondo de los botones */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px;
+    text-align: center; /* Alineación del texto */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.sidebar-option:hover {
+    background-color: #554834; /* Color al pasar el mouse */
+}
