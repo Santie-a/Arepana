@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 
-const Sidebar = ({ isOpen, onClose }) => {
+const Sidebar = ({ isOpen, onClose, onComponentChange }) => {
     return (
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
             <button className="sidebar-close" onClick={onClose}>
@@ -9,10 +9,37 @@ const Sidebar = ({ isOpen, onClose }) => {
             </button>
             <h2>Menú</h2>
             <div className="sidebar-options">
-                <button className="sidebar-option">Sobre Nosotros</button>
-                <button className="sidebar-option">Contacto</button>
-                <button className="sidebar-option">Planes y membresias</button>
-				<button className="sidebar-option">Politicas de privacidad</button>
+            <button 
+                    className="sidebar-option"
+                    id = "map-button"
+                    onClick={() => onComponentChange('map')}>
+                    Mapa
+                </button>
+                <button 
+                    className="sidebar-option" 
+                    onClick={() => onComponentChange('profile')}>
+                    Perfil
+                </button>
+                <button 
+                    className="sidebar-option" 
+                    onClick={() => onComponentChange('aboutUs')}>
+                    Sobre Nosotros
+                </button>
+                <button 
+                    className="sidebar-option" 
+                    onClick={() => onComponentChange('contact')}>
+                    Contacto
+                </button>
+                <button 
+                    className="sidebar-option" 
+                    onClick={() => onComponentChange('membershipPlans')}>
+                    Planes y membresías
+                </button>
+                <button 
+                    className="sidebar-option" 
+                    onClick={() => onComponentChange('privacyPolicy')}>
+                    Políticas de privacidad
+                </button>
             </div>
         </div>
     );

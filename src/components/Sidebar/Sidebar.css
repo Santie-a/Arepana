@@ -46,3 +46,8 @@
 .sidebar-option:hover {
     background-color: #554834; /* Color al pasar el mouse */
 }
+
+#map-button {
+    background-color: #b08f5a;
+    padding: 20px;
+}

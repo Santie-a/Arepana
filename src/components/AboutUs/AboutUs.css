@@ -1,0 +1,36 @@
+.about-us-container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section-title {
+    background-color: #c2ab86;
+    color: #000;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+	text-align: center;
+}
+
+.section-title:hover {
+    background-color: #bf9552; /* Darker shade on hover */
+}
+
+.section-content {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 5px;
+}

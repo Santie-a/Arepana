@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './BottomBar.css';
 
-const BottomBar = ({ locations, onReserve, onLocation }) => {
+const BottomBar = ({ locations, onReserve }) => {
     const [location, setLocation] = useState('');
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredResults, setFilteredResults] = useState([]);
